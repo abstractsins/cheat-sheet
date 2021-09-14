@@ -1,0 +1,167 @@
+* {
+    /* border: 1px solid red; */
+    --active-color: #f5aa42;
+    --code-background: rgb(51, 51, 51);
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Raleway', 'Rubik', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    border-bottom: 3px dashed black;
+    z-index: 10;
+}
+
+.title h1 {
+    font-family: 'Rubik', 'Raleway', sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.2ch;
+    color: rgb(67, 103, 168);
+    padding-left: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.title h2 {
+    font-family: monospace;
+    font-size: 2em;
+    text-align: right;
+    letter-spacing: 1.2ch;
+}
+
+.nav {
+    padding-left: 20px;
+}
+
+.nav h2 {
+    font-family: 'Raleway', 'Rubik', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.2ch;
+}
+
+.nav a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+ul {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: deeppink;
+}
+
+/* MAIN */
+
+.main {
+    background-color: lightgray;
+}
+
+.main h2 {
+    font-size: 3em;
+}
+
+.css, 
+.html {
+    padding: 25px;
+    /* overflow: scroll; */
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 0.75em;
+    margin-left: 100px;
+}
+
+.section-title {
+    background-color: rgb(154, 216, 154);
+    width: 50%;
+    padding: 15px;
+    letter-spacing: 0.25ch;
+}
+
+.entry-title {
+    padding-left: 50px;
+}
+
+.css p,
+.html p {
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.code {
+    width: 60%;
+    font-family: monospace;
+    font-size: 1.25em;
+    background-color: var(--code-background);
+    padding: 15px 0px;
+    margin: 0 50px;
+    letter-spacing: 0.15ch;
+    line-height: 1.75;
+    color: white;
+}
+
+.class {
+    color: greenyellow;
+}
+
+.a {
+    color: dodgerblue;
+}
+
+.label {
+    color: gold;
+}
+
+#link-color {
+    color: rgb(248, 99, 99);
+}
+
+#visited-color {
+    color: #a020f0;
+}
+
+#focus-color {
+    color: hsl(174, 100%, 50%);
+}
+
+#hover-color {
+    color: deeppink;
+}
+
+#active-color {
+    color: var(--active-color);
+}
+
+.css-code {
+    padding-left: 100px;
+}
+
+.closing-curly {
+    margin-left: 50px;
+}

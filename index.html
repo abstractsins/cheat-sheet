@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@300;400;500;700;800&family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet"><title>Mark S. Berlin</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cheet Sheetz by Dan</title>
+</head>
+<body>
+
+    <!-- Header section w/ nav-->
+    <div class="header">
+        <div class="title">
+            <h1>Cheet Sheetz</h1>
+            <h2>by Dan</h2>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#html"><h2>HTML</h2></a>
+                </li>
+                <li>
+                    <a href="#css"><h2>CSS</h2></a>
+                </li>
+                <li>
+                    <a href="#js"><h2>JavaScript</h2></a>
+                </li>
+                <li>
+                    <a href="#regex"><h2>Regex</h2></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <!-- Main section -->
+    <div class="main">
+
+            <!-- HTML section -->
+
+        <div id="html" class="html">
+            <h2 class="section-title"> &gt&gt HTML</h2>
+            <h3 class="entry-title"> Self Closing Tags</h3>
+            <p> The following tags, called "void-elements," are self closing. The slash at the end "/>" is only required for XHTML, but it is recommended to always use it.
+            <h4>(Reference: <a href="http://xahlee.info/js/html5_non-closing_tag.html" target="new">http://xahlee.info/js/html5_non-closing_tag.html</a>)</h4>
+            </p>
+            <p class="code">
+                <br><span class="code"><span class="tags">&lt</span><span id="link-color">area</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">base</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">br</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">col</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">embed</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">hr</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">img</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">input</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">link</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">meta</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">param</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">source</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">track</span> /<span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">wbr</span> /<span class="tags">&gt</span></span><br>
+                <br>
+            </p>             
+        </div>
+
+            <!-- CSS section -->
+        
+        <div id="css" class="css">
+            <h2 class="section-title"> &gt&gt CSS</h2>
+            <h3 class="entry-title">Order of Pseudo-Class Selectors</h3>
+            <p>Since later CSS styles override any styles that come before, there is a preferred order to pseudo-class selectors: <em>(Notice the different ways to specify color)</em>
+            </p>
+            <p class="code">
+                <br><span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">link</span> { <br><span class="css-code">color: <span id="link-color">rgb(248, 99, 99)</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
+                <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">visited</span> { <br><span class="css-code">color: <span id="visited-color">#A020F0</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
+                <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">focus</span> { <br><span class="css-code">color: <span id="focus-color">hsl(174, 100%, 50%)</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
+                <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">hover</span> { <br><span class="css-code">color: <span id="hover-color">deeppink</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
+                <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">active</span> { <br><span class="css-code">color: <span id="active-color">var(--active-color)</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
+            <p>
+        </div>
+
+            <!-- JavaScript section -->
+
+            <!-- Regex section -->
+
+    </div>
+</body>
+</html>
