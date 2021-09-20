@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@300;400;500;700;800&family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
+        <!-- Stylesheet links -->
     <link rel="stylesheet" href="style.css">
 
     <title>Cheet Sheetz by Dan</title>
 </head>
 <body>
 
-    <!-- Header section w/ nav-->
+        <!-- Header section w/ nav-->
     <div class="header">
         <div class="title">
             <h1>Cheet Sheetz</h1>
@@ -43,37 +45,78 @@
     <div class="main">
 
             <!-- HTML section -->
-
         <div id="html" class="html">
             <h2 class="section-title"> &gt&gt HTML</h2>
-            <h3 class="entry-title"> Self Closing Tags</h3>
-            <p> The following tags, called "void-elements," are self closing. The slash at the end "/>" is only required for XHTML, but it is recommended to always use it.
-            <h4>(Reference: <a href="http://xahlee.info/js/html5_non-closing_tag.html" target="new">http://xahlee.info/js/html5_non-closing_tag.html</a>)</h4>
+            <div class="html-nav">
+                <ul>
+                    <li><a href="#self-closing-tags"><h3>&lt/ Self Closing Tags &gt</h3></a></li>
+                    <li><a href="#tables"><h3>&lt/ Tables &gt</h3></a></li>
+                    <li><a href="#rare-tags"><h3>&lt/ Rare Tags &gt</h3></a></li>
+
+                </ul>
+            </div>
+
+                <!-- Self Closing Tags -->
+            <h3 class="entry-title" id="self-closing-tags"> Self Closing Tags</h3>
+            <p> The following tags, called "void-elements," are self closing. The slash at the end <span class="inline-code"><span class="slash">/</span>&gt</span> is only required for XHTML, but it is recommended to always use it.
             </p>
+            <h4>(Reference: <a href="http://xahlee.info/js/html5_non-closing_tag.html" target="new">http://xahlee.info/js/html5_non-closing_tag.html</a>)</h4>
             <p class="code">
-                <br><span class="code"><span class="tags">&lt</span><span id="link-color">area</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">base</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">br</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">col</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">embed</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">hr</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">img</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">input</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">link</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">meta</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">param</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">source</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">track</span> /<span class="tags">&gt</span></span><br>
-                <span class="code"><span class="tags">&lt</span><span id="link-color">wbr</span> /<span class="tags">&gt</span></span><br>
+                <br><span class="code"><span class="tags">&lt</span><span id="link-color">area</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">base</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">br</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">col</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">embed</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">hr</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">img</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">input</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">link</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">meta</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">param</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">source</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">track</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">wbr</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
                 <br>
-            </p>             
+            </p>       
+
+                <!-- Tables -->
+            <h3 class="entry-title" id="tables"> Tables</h3>
+            <p> Tables use a lot of different HTML tags.
+            </p>
+            <h4>(Reference: <a href="" target="new">reference URL</a>)</h4>
+    
+
+                <!-- Rare Tags -->
+            <h3 class="entry-title" id="rare-tags"> Rare Tags</h3>
+            <p> The following tags are lesser-known, but can be useful. Access the reference URL for more information.
+            </p>
+            <h4>(Reference: <a href="https://code.tutsplus.com/articles/10-rare-html-tags-you-really-should-know--net-3908" target="new">code.tutsplus.com/articles/10-rare-html-tags-you-really-should-know</a>)</h4>
+            <p class="code">
+                <br><span class="code"><span class="tags">&lt</span><span id="link-color">cite</span>&gt &lt<span class="slash">/</span><span id="link-color">cite</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">acronym</span> title="Text"&gt &lt<span class="slash">/</span><span id="link-color">acronym</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">address</span>&gt &lt<span class="slash">/</span><span id="link-color">address</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">ins</span>&gt &lt<span class="slash">/</span><span id="link-color">ins</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">del</span>&gt &lt<span class="slash">/</span><span id="link-color">del</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">abbr</span> title="Text"&gt &lt<span class="slash">/</span><span id="link-color">abbr</span><span class="tags">&gt</span></span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color"> rel</span>="" &gt</span><br>
+                <span class="code"><span class="tags">&lt</span><span id="link-color">wbr</span> <span class="slash">/</span><span class="tags">&gt</span></span><br>
+                <br>
+                
+            </p>
+
         </div>
 
             <!-- CSS section -->
-        
         <div id="css" class="css">
             <h2 class="section-title"> &gt&gt CSS</h2>
-            <h3 class="entry-title">Order of Pseudo-Class Selectors</h3>
+            <div class="html-nav">
+                <ul>
+                    <li><a href="#pseudo-class-order"><h3>{ Order of Pseudo-Class Selectors }</h3></a></li>
+                </ul>
+            </div>
+
+                <!-- Pseudo-Class Order -->
+            <h3 id="pseudo-class-order" class="entry-title">Order of Pseudo-Class Selectors</h3>
             <p>Since later CSS styles override any styles that come before, there is a preferred order to pseudo-class selectors: <em>(Notice the different ways to specify color)</em>
             </p>
             <p class="code">
@@ -83,9 +126,82 @@
                 <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">hover</span> { <br><span class="css-code">color: <span id="hover-color">deeppink</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
                 <span class="code"><span class="class">.class</span> <span class="a">a:</span><span class="label">active</span> { <br><span class="css-code">color: <span id="active-color">var(--active-color)</span></span>;<br><span class="closing-curly">}</span></span></span><br><br>
             <p>
+
         </div>
 
             <!-- JavaScript section -->
+        <div id="js" class="js">
+            <h2 class="section-title"> &gt&gt JavaScript</h2>
+            <div class="js-nav">
+                <ul>
+                    <li><a href="#array-methods"><h3>=&gt Go-To JS Array Methods</h3></a></li>
+                    <li><a href="#loops"><h3>=&gt Lo&ouml;ps</h3></a></li>
+
+                </ul>
+            </div>
+            
+                <!-- Loops -->
+            <h3 id="loops" class="entry-title">Loops</h3>
+            <p>The differences between different loops types is very important.
+            </p>
+            <h4>(Reference: <a href="" target="new">Reference URL</a>)</h4>
+    
+
+                <!-- Array Methods -->
+            <h3 id="array-methods" class="entry-title">Go-To Array Methods</h3>
+            <p>The following is a curated list of useful go-to array methods. Access the reference URL for more methods.
+            </p>
+            <h4>(Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="new">developer.mozilla.org</a>)</h4>
+            <p class="code">
+
+                    <!-- push -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.push</span>(<span class="string">'String'</span>, <span class="number">numb3r</span>, or <span class="variable">someVariable</span>);</span>
+                <br><span class="js-captions"> -- adds the passed argument to the end of the array</span>
+                <br>
+                    <!-- pop -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.pop</span>();</span>
+                <br><span class="js-captions"> -- removes the last item in an array</span>
+                <br>
+
+                    <!-- splice -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.splice</span>(<span class="variable">index</span>, <span class="number">span</span>);</span>
+                <br><span class="js-captions"> -- removes item(s) at <span class="variable">specified index</span>, for the <span class="number">length of span</span></span>
+                <br>
+
+                    <!-- length -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.length</span>();</span>
+                <br><span class="js-captions"> -- returns the <span class="number">number</span> of items in an <span class="prototype">array</span>
+                <br>
+
+                    <!-- indexOf -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.indexOf</span>(<span class="string">'String'</span>)</span>
+                <br><span class="js-captions"> -- Returns the first (least) <string class="number">index</string> of an element within the <span class="prototype">array</span> equal to an <span class="string">element</span>
+                <br>
+
+                    <!-- forEach -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.forEach</span>((<span class="variable">element</span>) =&gt {<span class="class">function body</span>});</span>
+                <br><span class="js-captions"> -- Iterator, calling a function on each element in the array
+                <br>
+
+                    <!-- keys -->
+                <br><span class="code">let <span class="prototype">arrayName</span> = <span class="object">object</span><span class="method">.keys</span>();</span>
+                <br><span class="js-captions"> -- creates new array, populated by an object's keys
+                <br>
+
+                    <!-- filter -->
+                <br><span class="code">let <span class="prototype">arrayName2</span> = <span class="prototype">arrayName1</span><span class="method">.filter</span>(<span class="function">functionCall</span>);</span>
+                <br><span class="js-captions"> -- creates a new array by iterating over an array and evaluating each item as <span class="true">TRUE</span> or <span class="false">FALSE</span></span>
+                <br>
+
+                    <!-- includes -->
+                <br><span class="code"><span class="prototype">arrayName</span><span class="method">.includes</span>(<span class="string">element</span>);</span>
+                <br><span class="js-captions"> -- checks if array values include the passed argument, returning <span class="true">TRUE</span> or <span class="false">FALSE</span></span>
+                <br><br>
+    
+            </p>
+
+        </div>
+
 
             <!-- Regex section -->
 
